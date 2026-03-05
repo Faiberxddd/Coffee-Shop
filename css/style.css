@@ -587,12 +587,8 @@ body{
     color: #1c4ef3;
 }
 
-/* =========================
-   TABLET (max 1024px)
-========================= */
 @media (max-width: 1024px){
 
-    /* HERO */
     .hero{
         flex-direction: column;
         text-align:center;
@@ -623,23 +619,19 @@ body{
         display:block;
     }
 
-    /* MENU */
     .menu-grid{
         grid-template-columns: repeat(2,1fr);
     }
 
-    /* GALERIA */
     .galeria-grid{
         grid-template-columns: repeat(2,1fr);
     }
 
-    /* CONTACTO */
     .contacto-container{
         flex-direction:column;
         gap:40px;
     }
 
-    /* CARRITO */
     .carrito{
         padding:40px;
     }
@@ -648,7 +640,6 @@ body{
         flex-direction:column;
     }
 
-    /* AUTH */
     .auth{
         flex-direction:column;
     }
@@ -659,12 +650,8 @@ body{
 }
 
 
-/* =========================
-   MOBILE (max 768px)
-========================= */
 @media (max-width: 768px){
 
-    /* NAV */
     .nav{
         flex-direction:column;
         gap:15px;
@@ -676,7 +663,6 @@ body{
         margin-left:0;
     }
 
-    /* HERO */
     .hero{
         padding:40px 20px;
     }
@@ -704,7 +690,6 @@ body{
         padding:10px 20px;
     }
 
-    /* MENU */
     .menu{
         padding:40px 20px;
     }
@@ -717,7 +702,6 @@ body{
         padding:30px;
     }
 
-    /* GALERIA */
     .galeria-grid{
         grid-template-columns:1fr;
     }
@@ -726,7 +710,6 @@ body{
         height:200px;
     }
 
-    /* CONTACTO */
     .contacto{
         padding:40px 20px;
     }
@@ -753,7 +736,6 @@ body{
         width:100%;
     }
 
-    /* CARRITO */
     .carrito{
         padding:30px 20px;
     }
@@ -766,7 +748,6 @@ body{
         padding:25px;
     }
 
-    /* AUTH */
     .auth-card{
         width:100%;
         max-width:350px;
@@ -779,9 +760,6 @@ body{
 }
 
 
-/* =========================
-   SMALL MOBILE (max 480px)
-========================= */
 @media (max-width: 480px){
 
     .hero-left h1{
