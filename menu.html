@@ -27,10 +27,12 @@
         <a href="menu.html">Menu</a>
         <a href="galeria.html">Galeria</a>
         <a href="contacto.html" class="bold">Contactenos</a>
-        <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="carrito.html" class="cart"><i class="fa-solid fa-cart-shopping"></i><span id="cart-count" class="cart-count">0</span></a>
         <a href="login.html"><i class="fa-regular fa-user"></i></a>
     </div>
 </nav>
+
+<div id="toast" class="toast">Producto agregado al carrito</div>
 
 <section class="menu">
     <h2>MENU</h2>
@@ -44,7 +46,7 @@
             <p>Amplia variedad de cafés calientes al vapor para sentir frescura y aroma.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="oorder-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
@@ -55,7 +57,7 @@
             <p>Cremosas y suaves bebidas frías para refrescar tu día.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="order-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
@@ -66,7 +68,7 @@
             <p>Bebidas refrescantes con frutas e hielo para sentirte renovado.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="order-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
@@ -77,7 +79,7 @@
             <p>La mejor combinación entre sabor y calidad.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="order-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
@@ -88,7 +90,7 @@
             <p>Amplia variedad deliciosa para acompañar tu café.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="order-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
@@ -99,13 +101,13 @@
             <p>Deliciosos postres que endulzan tu momento.</p>
 
             <div class="card-btns">
-                <button class="btn">Comprar</button>
+                <button id="order-btn" class="btn" onclick="agregarProducto()">Comprar</button>
                 <button class="btn">Detalles</button>
             </div>
         </div>
 
     </div>
 </section>
-
+<script src="script.js"></script>
 </body>
 </html>
